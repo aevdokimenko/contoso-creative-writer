@@ -2,7 +2,7 @@
 name: Social Media Agent
 description: This social media agent takes research from the researcher agent and generates social media content for Twitter
 authors:
-  - Your name 
+  - Alex Me 
 model:
   api: chat
   configuration:
@@ -10,7 +10,7 @@ model:
     azure_deployment: gpt-4
     api_version: 2023-07-01-preview
   parameters:
-    max_tokens: 50
+    max_tokens: 3000
 sample:
   researchContext: Can you find the latest camping trends and what folks are doing in the winter?
   research: research
